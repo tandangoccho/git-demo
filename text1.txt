@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 a = Integer.new (1)
 
 
 put a
+=======
+b = Integer.new(2)
+
+
+put a
+>>>>>>> origin/master

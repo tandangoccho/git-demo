@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    background-image: url("./imgs/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    height: 10vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav .logo {
+    width: 7%;
+}
+
+.menu {
+    width: 93%;
+    background-color: rgba(49, 55, 43, 0.1);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin: 0px 100px;
+}
+
+.menu-item li {
+    margin: 0px 20px;
+    padding: 24px;
+}
+
+.menu-item li a {
+    color: #f1f1f1;
+    font-weight: 00;
+}
+
+.menu-item li:hover {
+    background-color: #171B1F;
+}
+
+.main {
+    height: 75vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.main-content {
+    width: 500px;
+    height: 400px;
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content h3 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main-content p {
+    color: #f1f1f1;
+}
+
+.footer {
+    color: #f1f1f1;
+    height: 15vh;
+    background-color: #181D23;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team > .team-block {
+    margin: 0px 24px;
+}
+
+.team .logo-team {
+    margin: 12px 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.team-block {
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time > div {
+    margin: 0px 18px;
+}
